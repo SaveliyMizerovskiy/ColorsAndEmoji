@@ -4,16 +4,15 @@ public class Main
     {
         Caterpillar harry = new Caterpillar("Harry");
 
-      /* A. uncomment code below first
-            then study my code and see how colors work! */
 
-        //harry.introduce();
+
+        harry.introduce();
 
 
       /* B. uncomment code below second
             then study the code to see how emojis work! */
 
-        //harry.printFavoriteFoods();
+        harry.printFavoriteFoods();
 
 
       /* C. uncomment code below third
@@ -24,5 +23,10 @@ public class Main
         //try {
         //  harry.animate();
         //} catch (Exception e) { }
+
+
+        try {
+            harry.monkeyMoves();
+        } catch (Exception e){}
     }
 }

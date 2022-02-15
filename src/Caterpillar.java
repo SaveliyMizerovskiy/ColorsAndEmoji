@@ -12,6 +12,7 @@ public class Caterpillar
     private final String CYAN = "\033[0;34m";
     private final String BLUE_BRIGHT = "\033[0;94m";
     private final String PURPLE = "\033[0;35m";
+    private final String GREEN = "\u001B[32m";
 
     // emoji example (unicode)
     private final String GREEN_APPLE_EMOJI = "\uD83C\uDF4F";
@@ -42,6 +43,7 @@ public class Caterpillar
         System.out.println("Red apple: \uD83C\uDF4E");
         System.out.println("Green apple: " + GREEN_APPLE_EMOJI);
         System.out.println("Clover: \uD83C\uDF40");
+        System.out.println("Monkey : \uD83D\uDE4A");
     }
 
     // this method "throws exceptions" which is an
@@ -174,5 +176,69 @@ public class Caterpillar
         System.out.println("(\")__)__)__)__)__)__)");
         System.out.println(" ^ \"\" \"\" \"\" \"\" \"\" \"\"\"");
         System.out.println(RED + name + ": CHOMP CHOMP YUM!" + WHITE);
+    }
+
+    public void monkeyMoves() throws InterruptedException{
+        System.out.println(GREEN + "|' ____'|'_____\" | \" ___ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|'_____\" | \" __ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|'_____\" | \" _ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|'_____\" | \" \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|'_____ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|'____ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|'___ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|'__ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|'_ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____'|' \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ____ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' ___ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' __ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' _ \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+        System.out.println(GREEN + "|' \uD83D\uDC12");
+        Thread.sleep(500);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+
     }
 }
